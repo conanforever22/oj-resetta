@@ -1,0 +1,53 @@
+{
+  "version": "2026-06-22T13:54:50Z",
+  "by_source": {
+    "luogu": {
+      "B4539": "591",
+      "P3083": "594"
+    },
+    "codeforces": {
+      "cf1668b": "592"
+    },
+    "atcoder": {
+      "abc036a": "590",
+      "abc048b": "589",
+      "abc280d": "593"
+    }
+  },
+  "by_my_id": {
+    "591": {
+      "source": "luogu",
+      "source_id": "B4539",
+      "source_url": "https://www.luogu.com.cn/problem/B4539"
+    },
+    "594": {
+      "source": "luogu",
+      "source_id": "P3083",
+      "source_url": "https://www.luogu.com.cn/problem/P3083"
+    },
+    "592": {
+      "source": "codeforces",
+      "source_id": "cf1668b",
+      "source_url": "https://codeforces.com/problemset/problem/1668/B"
+    },
+    "590": {
+      "source": "atcoder",
+      "source_id": "abc036a",
+      "source_url": "https://atcoder.jp/contests/abc036/tasks/abc036_a"
+    },
+    "589": {
+      "source": "atcoder",
+      "source_id": "abc048b",
+      "source_url": "https://atcoder.jp/contests/abc048/tasks/abc048_b"
+    },
+    "593": {
+      "source": "atcoder",
+      "source_id": "abc280d",
+      "source_url": "https://atcoder.jp/contests/abc280/tasks/abc280_d"
+    }
+  },
+  "remote_prefixes": {
+    "AT_": "atcoder",
+    "CF": "codeforces"
+  }
+}
