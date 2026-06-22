@@ -1,0 +1,9 @@
+oj-tracker.user.js
+venv/
+__pycache__/
+*.pyc
+data.json
+csv/
+.DS_Store
+Thumbs.db
+~$*.xlsx

@@ -1,0 +1,43 @@
+name: Build and Deploy
+
+on:
+  push:
+    paths:
+      - 'mappings.xlsx'
+      - 'build.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install openpyxl
+
+      - name: Run build
+        run: python build.py
+
+      - name: Prepare Pages artifacts
+        run: |
+          rm -rf _pages
+          mkdir -p _pages/csv
+          cp data.json _pages/
+          cp csv/*.csv _pages/csv/
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_pages
+          publish_branch: gh-pages
+          keep_files: false
