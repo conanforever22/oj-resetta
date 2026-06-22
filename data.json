@@ -1,9 +1,10 @@
 {
-  "version": "2026-06-22T13:54:50Z",
+  "version": "2026-06-22T16:03:34Z",
   "by_source": {
     "luogu": {
       "B4539": "591",
-      "P3083": "594"
+      "P3083": "594",
+      "P16953": "595"
     },
     "codeforces": {
       "cf1668b": "592"
@@ -24,6 +25,11 @@
       "source": "luogu",
       "source_id": "P3083",
       "source_url": "https://www.luogu.com.cn/problem/P3083"
+    },
+    "595": {
+      "source": "luogu",
+      "source_id": "P16953",
+      "source_url": "https://www.luogu.com.cn/problem/P16953"
     },
     "592": {
       "source": "codeforces",
