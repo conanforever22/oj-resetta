@@ -57,7 +57,7 @@
     // ================================================================
 
     const CACHE_KEY = "oj_resetta_data";
-    const CACHE_TTL = 3600000; // 1 小时
+    const CACHE_TTL = 300000;  // 5 分钟
 
     function fetchData() {
         return new Promise((resolve, reject) => {
@@ -69,13 +69,18 @@
 
             GM_xmlhttpRequest({
                 method: "GET",
-                url: DATA_URL,
+                url: DATA_URL + "?_t=" + Date.now(),
                 timeout: 10000,
                 onload(resp) {
                     try {
                         const data = JSON.parse(resp.responseText);
-                        GM_setValue(CACHE_KEY, { ts: Date.now(), data: data });
-                        resolve(data);
+                        if (cached && data.version && data.version === cached.version) {
+                            GM_setValue(CACHE_KEY, { ts: Date.now(), version: cached.version, data: cached.data });
+                            resolve(cached.data);
+                        } else {
+                            GM_setValue(CACHE_KEY, { ts: Date.now(), version: data.version, data: data });
+                            resolve(data);
+                        }
                     } catch (e) {
                         if (cached) resolve(cached.data); // fallback to stale cache
                         else reject(e);
@@ -224,6 +229,12 @@
             }
         }
     }
+
+    // 手动刷新缓存
+    GM_registerMenuCommand("\u{1F504} \u5237\u65B0\u7F13\u5B58", async () => {
+        GM_setValue(CACHE_KEY, null);
+        location.reload();
+    });
 
     // 等 DOM 就绪再执行
     if (document.readyState === "loading") {
