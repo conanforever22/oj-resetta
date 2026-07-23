@@ -1,5 +1,5 @@
 {
-  "version": "2026-07-20T12:32:13Z",
+  "version": "2026-07-23T15:55:29Z",
   "by_source": {
     "luogu": {
       "B4539": "591",
@@ -16,7 +16,8 @@
     },
     "codeforces": {
       "cf1668b": "592",
-      "cf1999e": "604"
+      "cf1999e": "604",
+      "cf26b": "607"
     },
     "atcoder": {
       "abc036a": "590",
@@ -90,6 +91,11 @@
       "source": "codeforces",
       "source_id": "cf1999e",
       "source_url": "https://codeforces.com/problemset/problem/1999/E"
+    },
+    "607": {
+      "source": "codeforces",
+      "source_id": "cf26b",
+      "source_url": "https://codeforces.com/problemset/problem/26/B"
     },
     "590": {
       "source": "atcoder",
