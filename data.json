@@ -1,5 +1,5 @@
 {
-  "version": "2026-07-23T15:55:29Z",
+  "version": "2026-07-24T05:47:53Z",
   "by_source": {
     "luogu": {
       "B4539": "591",
@@ -12,7 +12,8 @@
       "U705176": "603",
       "U704901": "602",
       "U705882": "605",
-      "P1944": "606"
+      "P1944": "606",
+      "P14361": "563"
     },
     "codeforces": {
       "cf1668b": "592",
@@ -81,6 +82,11 @@
       "source": "luogu",
       "source_id": "P1944",
       "source_url": "https://www.luogu.com.cn/problem/P1944"
+    },
+    "563": {
+      "source": "luogu",
+      "source_id": "P14361",
+      "source_url": "https://www.luogu.com.cn/problem/P14361"
     },
     "592": {
       "source": "codeforces",
