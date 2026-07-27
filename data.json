@@ -1,5 +1,5 @@
 {
-  "version": "2026-07-24T05:47:53Z",
+  "version": "2026-07-27T23:31:26Z",
   "by_source": {
     "luogu": {
       "B4539": "591",
@@ -13,7 +13,12 @@
       "U704901": "602",
       "U705882": "605",
       "P1944": "606",
-      "P14361": "563"
+      "P14361": "563",
+      "U709285": "380",
+      "U709280": "382",
+      "U709289": "381",
+      "U709295": "383",
+      "U709578": "608"
     },
     "codeforces": {
       "cf1668b": "592",
@@ -87,6 +92,31 @@
       "source": "luogu",
       "source_id": "P14361",
       "source_url": "https://www.luogu.com.cn/problem/P14361"
+    },
+    "380": {
+      "source": "luogu",
+      "source_id": "U709285",
+      "source_url": "https://www.luogu.com.cn/problem/U709285"
+    },
+    "382": {
+      "source": "luogu",
+      "source_id": "U709280",
+      "source_url": "https://www.luogu.com.cn/problem/U709280"
+    },
+    "381": {
+      "source": "luogu",
+      "source_id": "U709289",
+      "source_url": "https://www.luogu.com.cn/problem/U709289"
+    },
+    "383": {
+      "source": "luogu",
+      "source_id": "U709295",
+      "source_url": "https://www.luogu.com.cn/problem/U709295"
+    },
+    "608": {
+      "source": "luogu",
+      "source_id": "U709578",
+      "source_url": "https://www.luogu.com.cn/problem/U709578"
     },
     "592": {
       "source": "codeforces",
