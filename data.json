@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-05T04:43:36Z",
+  "version": "2026-10-05T05:25:23Z",
   "by_source": {
     "luogu": {
       "B4539": "591",
@@ -27,7 +27,10 @@
       "B4148": "639",
       "P1098": "640",
       "P7911": "641",
-      "B4262": "82"
+      "B4262": "82",
+      "P7910": "642",
+      "P8651": "643",
+      "B4579": "644"
     },
     "codeforces": {
       "cf1668b": "592",
@@ -176,6 +179,21 @@
       "source": "luogu",
       "source_id": "B4262",
       "source_url": "https://www.luogu.com.cn/problem/B4262"
+    },
+    "642": {
+      "source": "luogu",
+      "source_id": "P7910",
+      "source_url": "https://www.luogu.com.cn/problem/P7910"
+    },
+    "643": {
+      "source": "luogu",
+      "source_id": "P8651",
+      "source_url": "https://www.luogu.com.cn/problem/P8651"
+    },
+    "644": {
+      "source": "luogu",
+      "source_id": "B4579",
+      "source_url": "https://www.luogu.com.cn/problem/B4579"
     },
     "592": {
       "source": "codeforces",
