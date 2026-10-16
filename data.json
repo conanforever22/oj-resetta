@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-10T11:19:01Z",
+  "version": "2026-10-16T06:50:58Z",
   "by_source": {
     "luogu": {
       "B4539": "591",
@@ -34,7 +34,10 @@
       "P1204": "645",
       "P5250": "650",
       "B3778": "654",
-      "B3915": "655"
+      "B3915": "655",
+      "P2367": "657",
+      "P9749": "658",
+      "P5661": "659"
     },
     "codeforces": {
       "cf1668b": "592",
@@ -45,7 +48,9 @@
       "cf1979a": "625",
       "cf1600j": "629",
       "cf255a": "630",
-      "cf2266a": "653"
+      "cf2266a": "653",
+      "cf1517a": "660",
+      "cf1285a": "661"
     },
     "atcoder": {
       "abc036a": "590",
@@ -220,6 +225,21 @@
       "source_id": "B3915",
       "source_url": "https://www.luogu.com.cn/problem/B3915"
     },
+    "657": {
+      "source": "luogu",
+      "source_id": "P2367",
+      "source_url": "https://www.luogu.com.cn/problem/P2367"
+    },
+    "658": {
+      "source": "luogu",
+      "source_id": "P9749",
+      "source_url": "https://www.luogu.com.cn/problem/P9749"
+    },
+    "659": {
+      "source": "luogu",
+      "source_id": "P5661",
+      "source_url": "https://www.luogu.com.cn/problem/P5661"
+    },
     "592": {
       "source": "codeforces",
       "source_id": "cf1668b",
@@ -264,6 +284,16 @@
       "source": "codeforces",
       "source_id": "cf2266a",
       "source_url": "https://codeforces.com/problemset/problem/2266/A"
+    },
+    "660": {
+      "source": "codeforces",
+      "source_id": "cf1517a",
+      "source_url": "https://codeforces.com/problemset/problem/1517/A"
+    },
+    "661": {
+      "source": "codeforces",
+      "source_id": "cf1285a",
+      "source_url": "https://codeforces.com/problemset/problem/1285/A"
     },
     "590": {
       "source": "atcoder",
